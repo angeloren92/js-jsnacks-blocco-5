@@ -23,4 +23,4 @@ const students = [
 // Risultato: { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
 
 const result = students.find(({id}) => (id === 2))
-console.log(students, result)
+console.log(result)
