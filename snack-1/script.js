@@ -4,3 +4,4 @@ const names = ['Edoardo', 'Simone', 'Francesco'];
 // Risultato: 'Edoardo', 'Simone', 'Francesco'
 
 const risultato = names.map(nome => `'${nome}'`).join(', ')
+console.log(risultato)
